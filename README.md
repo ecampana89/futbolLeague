@@ -1,1 +1,20 @@
 # challengeAccelOne
+
+The goal is to create a basic but functional project that exposes a REST API.
+What should this API do?
+We’ll be hitting http://www.football-data.org/ API (you can see the documentation in the site, use the API v2) 
+to populate the data locally and then expose it.
+Import League:
+There should be 2 endpoints :
+ 1) importLeague, that takes a leagueCode as input, 
+    pull the data from the source API and populate the DB.
+ 2) getLeague, that takes a leagueCode as input and return a response with all its related data
+The import league implementation must get data using the given {leagueCode}, 
+by making requests to http://www.football-data.org/ API, and import the data into a DB. 
+Any SQL or NoSQL DB can be used, as long as there are clear instructions 
+on how to run the project locally as well as an explanation for the decision in the README.
+The data we’re importing is:
+Competition ("name", "code", "areaName")
+Team ("name", "tla", "shortName", "areaName", "email")
+Player ("name", "position", "dateOfBirth", "countryOfBirth", "nationality")
+Feel free to add to this data structure any other field that you might need.
