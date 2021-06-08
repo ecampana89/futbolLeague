@@ -1,5 +1,29 @@
-# challengeAccelOne
+# ** challengeAccelOne **
 
+This  back-end project working like an API rest service based on NodeJS and Express frameworks
+
+## Setup & Start
+1 - Install NodeJS dependecies
+``` bash
+npm install
+```
+2 - Start the backend project using the `'default'` configuration
+``` bash
+npm run start
+```
+3 - Check if the service status is up using curl
+``` bash
+curl -XGET http://localhost:3000
+# {"success":true,"code":200,"messages":["Back-end is up in 'developer' mode!"]}
+```
+##  use
+### import
+GET http://localhost:3000/api/v1/league/import?code=PPL
+### import
+GET http://localhost:3000/api/v1/league?code=PPL
+
+
+## goals
 The goal is to create a basic but functional project that exposes a REST API.
 What should this API do?
 We’ll be hitting http://www.football-data.org/ API (you can see the documentation in the site, use the API v2) 
