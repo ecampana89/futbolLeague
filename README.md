@@ -7,7 +7,7 @@ This  back-end project working like an API rest service based on NodeJS and Expr
 ``` bash
 npm install
 ```
-2 - crear un archivo .env y pegar el contenido de https://gist.github.com/ecampana89/3b5a18bc79025ae7bf56e0687dc7f9e9
+2 - create file .env and paste the content of https://gist.github.com/ecampana89/3b5a18bc79025ae7bf56e0687dc7f9e9
 
 
 3 - Start the backend project using the `'default'` configuration
