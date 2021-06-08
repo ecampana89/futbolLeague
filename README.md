@@ -7,11 +7,12 @@ This  back-end project working like an API rest service based on NodeJS and Expr
 ``` bash
 npm install
 ```
-2 - Start the backend project using the `'default'` configuration
+2 - crear un archivo .env y pegar el contenido de https://gist.github.com/ecampana89/3b5a18bc79025ae7bf56e0687dc7f9e9
+3 - Start the backend project using the `'default'` configuration
 ``` bash
 npm run start
 ```
-3 - Check if the service status is up using curl
+4 - Check if the service status is up using curl
 ``` bash
 curl -XGET http://localhost:3000
 # {"success":true,"code":200,"messages":["Back-end is up in 'developer' mode!"]}
