@@ -1,8 +1,10 @@
 # ** challengeAccelOne **
 
-This  back-end project working like an API rest service based on NodeJS and Express frameworks
+This  back-end project working like an API rest service based on NodeJS, Express frameworks and MongoDB
 
 ## Setup & Start
+0 - You need a local database in mongoDB to connect directly, if you have a connection via url for example to mongo atlas you can change the configuration inside the config / default.js folder
+
 1 - Install NodeJS dependecies
 ``` bash
 npm install
